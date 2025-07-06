@@ -41,3 +41,34 @@ approaches on a purpose-built IoT network-traffic dataset** and to understand:
 | `multiclass_tabnet.ipynb` | Deep-learning (TabNet) with Optuna tuning |
 | `unsupervised_exploration_part1.ipynb` | PCA / UMAP + DBSCAN for anomaly hunting |
 | `unsupervised_exploration_part2.ipynb` | Cluster stability & silhouette diagnostics |
+
+---
+
+## 4. Installation and Setup 
+
+To set up the environment:
+```
+pip install -r requirements.txt
+```
+We recommend using Jupyter or VS Code with a Python 3.10+ environment.
+
+---
+
+## 5. Usage
+
+You can run the notebooks in the following order:
+
+1. binaryclass_models.ipynb – Builds binary classifiers on attack vs benign
+2. binary_classification_xgboost_performance_sanity_checks.ipynb – Validates results and leakage
+3. multiclass_models.ipynb – Evaluates performance across 7 attack classes
+4. multiclass_tabnet.ipynb – Trains TabNet using Optuna to tune F1-macro
+5. unsupervised_exploration_part1/2.ipynb – Optional: clustering on unlabeled flows
+
+---
+
+## 6. Contributors
+
+Developed by Group 18 – CS610 Applied Machine Learning  
+Singapore Management University (SMU), 2025
+
+Members: Andres Fernando Garcia Delgado, CHAM Hui Ern Deon, Chen Haoyan, Goh Zhi Ann, Lewis Gordon Keyte
